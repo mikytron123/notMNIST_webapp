@@ -1,0 +1,6 @@
+notMNIST_small/*
+.ipynb_checkpoints/*
+lightning_logs/*
+*pyc
+*tar.gz
+
