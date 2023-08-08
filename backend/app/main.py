@@ -2,7 +2,6 @@ import base64
 import io
 import os
 import sys
-from typing import List
 
 import joblib
 from PIL import Image
@@ -10,10 +9,7 @@ import torch
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
-from sklearn.preprocessing._label import LabelBinarizer
-import joblib
-import torchvision
-from classes import load_model,Model
+from classes import Model
 import uvicorn
 import torchvision.transforms as T
 
