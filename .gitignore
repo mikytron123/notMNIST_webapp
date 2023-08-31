@@ -3,4 +3,4 @@ notMNIST_small/*
 lightning_logs/*
 *pyc
 *tar.gz
-
+.vscode
